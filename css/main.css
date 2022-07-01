@@ -1,7 +1,11 @@
 @import url('/libs/css/normalize.css');
 @import url('./fonts.css');
+@import url('/Geometrica/libs/css/font-awesome.css');
+@import url('/Geometrica/libs/css/font-awesome2.css');
 @import url('./global.css');
-@import url('/css/recet.css');
+@import url('recet.css');
+@import url('/Geometrica/css/components/common.css');
+@import url('/Geometrica/css/components/header.css');
 
 *{
 box-sizing: border-box;
