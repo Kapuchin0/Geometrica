@@ -6,6 +6,7 @@
 @import url('recet.css');
 @import url('/Geometrica/css/components/common.css');
 @import url('/Geometrica/css/components/header.css');
+@import url('/Geometrica/css/components/phone-number.css');
 
 *{
 box-sizing: border-box;

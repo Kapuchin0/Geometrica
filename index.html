@@ -9,61 +9,82 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header__wrapper">
-        <nav class="header__navigation">
-          <ul class="header__navigation-list">
-            <li class="header__navigation-list-item header__navigation-list-item--dropdown">
-              <a class="header__navigation-link" href="">Услуги</a>
-              <ul class="header__navigation-sub-menu">
-                <li class="header__navigation-list-item">
-                  <a class="header__navigation-link" href="">Услуга 1</a>
-                </li>
-                <li class="header__navigation-list-item">
-                  <a class="header__navigation-link" href="">Услуга 2</a>
-                </li>
-                <li class="header__navigation-list-item">
-                  <a class="header__navigation-link" href="">Услуга 3</a>
-                </li>
-                <li class="header__navigation-list-item">
-                  <a class="header__navigation-link" href="">Услуга 4</a>
-                </li>
-                <li class="header__navigation-list-item">
-                  <a class="header__navigation-link" href="">Услуга 5</a>
-                </li>
-              </ul>
+<div class="container">
+  <div class="header__wrapper">
+    <nav class="header__navigation">
+      <ul class="header__navigation-list">
+        <li class="header__navigation-list-item header__navigation-list-item--dropdown">
+          <a class="header__navigation-link" href="">Услуги</a>
+          <ul class="header__navigation-sub-menu">
+            <li class="header__navigation-list-item">
+              <a class="header__navigation-link" href="">Услуга 1</a>
             </li>
             <li class="header__navigation-list-item">
-              <a class="header__navigation-link" href="#">Оплата и доставка</a>
+              <a class="header__navigation-link" href="">Услуга 2</a>
             </li>
             <li class="header__navigation-list-item">
-              <a class="header__navigation-link" href="#">Акции</a>
+              <a class="header__navigation-link" href="">Услуга 3</a>
             </li>
             <li class="header__navigation-list-item">
-              <a class="header__navigation-link" href="#">Полезные советы</a>
+              <a class="header__navigation-link" href="">Услуга 4</a>
             </li>
             <li class="header__navigation-list-item">
-              <a class="header__navigation-link" href="#">Обратная связь</a>
-            </li>
-            <li class="header__navigation-list-item">
-              <a class="header__navigation-link" href="#">Контакты</a>
+              <a class="header__navigation-link" href="">Услуга 5</a>
             </li>
           </ul>
-        </nav>
-        <div class="header__contacts">
-          <div>
-            <div class="phone-number">
-              <i class="fa-solid fa-phone"></i>
-              <a href="tel:+7395248-28-05" class="phone-number__link"
-                >+7 (3952) 48-28-05</a
-              >
-            </div>
-            <p class="header__contacts-location">
-              г. Иркутск, ул. Старокузьмихинская, 41/3
-            </p>
-          </div>
-          <i class="fa-brands fa-instagram"></i>
+        </li>
+        <li class="header__navigation-list-item">
+          <a class="header__navigation-link" href="#">Оплата и доставка</a>
+        </li>
+        <li class="header__navigation-list-item">
+          <a class="header__navigation-link" href="#">Акции</a>
+        </li>
+        <li class="header__navigation-list-item">
+          <a class="header__navigation-link" href="#">Полезные советы</a>
+        </li>
+        <li class="header__navigation-list-item">
+          <a class="header__navigation-link" href="#">Обратная связь</a>
+        </li>
+        <li class="header__navigation-list-item">
+          <a class="header__navigation-link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__contacts">
+      <div>
+        <div class="phone-number">
+          <i class="fa-solid fa-phone phone-number__icon"></i>
+          <a href="tel:+7395248-28-05" class="phone-number__link"
+            >+7 (3952) 48-28-05</a
+          >
         </div>
+        <p class="header__contacts-location">
+          г. Иркутск, ул. Старокузьмихинская, 41/3
+        </p>
       </div>
+      <a class="header__contacts-instagram" target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="header__panel">
+    <img src="/Geometrica/images/logo.svg" alt="logo" class="header-logo">
+    <p class="header__description">керамическая плитка и <br> керамогранит в Иркутске</p>
+    <div class="header_controls">
+    <i class="fa-regular fa-user header__controls-icon"></i>
+    <i class="fa-regular fa-heart header__controls-icon"></i>
+    <i class="fa-solid fa-cart-shopping header__controls-icon"></i>
+    </div>
+    <form class="header__search"><input class="header__search-input" type="search" name="search-products" placeholder="искать в каталоге">
+    <button type="submit" class="header__search-button">
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+</form>
+<div>
+<button class="heade__catalog-button">
+  КАТАЛОГ ПРОДУКЦИИ
+  </button>
+</div>
+</div>
     </header>
   </body>
 </html>
