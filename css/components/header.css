@@ -1,6 +1,10 @@
 .header{
     background-color: white;
-    padding: 56px 70px 0px 80px;
+    
+}
+
+.header__container{
+    padding:56px 0px 0px 80px ;
 }
 
 .header__wrapper{
@@ -160,17 +164,17 @@ position: relative;
     right: 0;
     top: 50%;
     right: 25px;
-    color: var(--red-darken-1);
     transform: translateY(-50%);
+    color: var(--red-darken-1);
     background: none;
     border: none;
-
+    cursor: pointer;
 }
 
 .heade__catalog-button{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 34px;
     height: 70px;
     min-width: 302px;
@@ -188,4 +192,56 @@ position: relative;
 
 .heade__catalog-button:hover{
     background-color: var(--red-darken-2);
+}
+
+.header__slider {
+
+}
+
+.header__slide{
+    min-height: 960px;
+    background-image: url(/Geometrica/images/slides/slide1.jpg);
+}
+
+.header__slide-sub-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-discount {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-title-group{
+    padding-left: 80px;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-bottom: 218px;
+}
+
+.header .slide-pagination{
+    position: absolute;
+    bottom: 157px;
+    left: 360px;
 }

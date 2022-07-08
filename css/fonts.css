@@ -13,7 +13,7 @@
 @font-face {
     font-family: 'Inter';
     font-weight: 700;
-    src: url('../fonts/inter/static/Inter-Bold.ttf') format('truetype');
+    src: url('/Geometrica/fonts/inter/Inter-Bold.ttf') format('truetype');
 }
 
 @font-face {
